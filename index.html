@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Disney Lovers Quiz</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet">
+<script type ="text/javascript" src ="assets/javascript/app.js"></script>	
+</head>
+
+<body>
+<div id="mainContainer">
+
+  <h1>Disney Quiz</h1>
+
+<div id="quiz-time-left"></div>
+
+<form id="quiz" name="quiz">
+
+  <p>In what year did Walt Disney create Mickey Mouse?</p>
+  <input type="radio" name="question1" value="2000"> 2000
+  <input type="radio" name="question1" value="1926"> 1926
+  <input type="radio" name="question1" value="1969"> 1969
+  <input type="radio" name="question1" value="1988"> 1988
+
+
+  <p>Which city is not currently home to a Disney Resort?</p>
+  <input type="radio" name="question2" value="Tokyo"> Tokyo
+  <input type="radio" name="question2" value="Paris"> Paris
+  <input type="radio" name="question2" value="Hong Kong"> Hong Kong
+  <input type="radio" name="question2" value="San Francisco"> San Francisco
+
+
+  <p>In Peter Pan, Captain Hook had a hook on which one of his hands?</p>
+  <input type="radio" name="question3" value="right"> Right
+  <input type="radio" name="question3" value="left"> Left
+
+
+  <p>What was the last Disney movie officially overseen by Walt Disney?</p>
+  <input type="radio" name="question4" value="The Jungle Book"> The Jungle Book
+  <input type="radio" name="question4" value="Finding Nemo"> Finding Nemo
+  <input type="radio" name="question4" value="Moana"> Moana
+  <input type="radio" name="question4" value="Toy Story 3"> Toy Story 3
+
+
+  <p>How many official hidden mickeys are at Disneyland?</p>
+  <input type="radio" name="question5" value="10"> 10
+  <input type="radio" name="question5" value="500"> 500
+  <input type="radio" name="question5" value="1,000"> 1,000
+  <input type="radio" name="question5" value="15,000"> 15,000
+
+
+  <p>Which was the first rollercoaster built at Disney World?</p>
+  <input type="radio" name="question6" value="Its a Small World"> It's a Small World
+  <input type="radio" name="question6" value="The Haunted Mansion"> The Haunted Mansion
+  <input type="radio" name="question6" value="Space Mountain"> Space Mountain
+  <input type="radio" name="question6" value="Pirates of the Caribbean"> Pirates of the Caribbean
+
+
+  <p>What is Disneyland's maximum capacity?</p>
+  <input type="radio" name="question7" value="1,000,000"> 1,000,000
+  <input type="radio" name="question7" value="5,000"> 5,000
+  <input type="radio" name="question7" value="100"> 100
+  <input type="radio" name="question7" value="80,000"> 80,000
+
+
+  <p>Which is the only Disney animated film with a main character that doesn’t speak?</p>
+  <input type="radio" name="question8" value="Wall-E"> Wall-E
+  <input type="radio" name="question8" value="Fantasia"> Fantasia
+  <input type="radio" name="question8" value="Dumbo"> Dumbo
+  <input type="radio" name="question8" value="Ratatouille"> Ratatouille
+
+
+  <p>Which Disney movie was the first to be nominated for an Oscar?</p>
+  <input type="radio" name="question9" value="Beauty and the Beast"> Beauty and the Beast
+  <input type="radio" name="question9" value="Lion King"> Lion King
+  <input type="radio" name="question9" value="The Little Mermaid"> The Little Mermaid
+  <input type="radio" name="question9" value="Star Wars"> Star Wars
+
+
+  <p>Who was the first Disney princess?</p>
+  <input type="radio" name="question10" value="Belle"> Belle
+  <input type="radio" name="question10" value="Snow White"> Snow White
+  <input type="radio" name="question10" value="Jasmine"> Jasmine
+  <input type="radio" name="question10" value="Mulan"> Mulan
+  <br>
+  <br>
+<input id="button" type="button" value="Submit" onclick="check();">
+
+</form>
+
+<div id = "score">
+<p id = "number_correct"></p>
+<p id = "number_incorrect"></p>	
+<p id = "number_unanswered"></p>	
+</div>
+</div>
+
+
+
+</body>
+</html>
