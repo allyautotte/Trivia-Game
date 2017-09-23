@@ -7,7 +7,7 @@
       clearInterval(timer);
       document.getElementById('quiz-time-left').innerHTML = 'TIMES UP!';
 	}
- },100);
+ },1000);
 
 
 var check = function(){
